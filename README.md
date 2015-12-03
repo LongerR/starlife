@@ -74,7 +74,7 @@
 </li>
 
 <li><a href="#">О сайте</a>
-<ul id="jnix-sub7" class="sub-nav">
+            <ul id="jnix-sub7" class="sub-nav">
 <li><a href="/konkursy/">Конкурсы / Акции</a></li>
 <li><a href="/news-portal/">Новости портала</a></li>
 <li><a href="/index.php?do=lastcomments">Последние комментарии</a></li>
@@ -82,4 +82,21 @@
 <li><a href="/rules.html">Правила проекта</a></li>
 <li><a href="/news-portal/2128-gostevaya-kniga.html">Отзывы посетителей</a></li>
 <li><a href="http://cstrike.starlife.kg">Мониторинг игровых серверов</a></li>
+</ul>
+</li>
 
+<li><a href="/advertising.html">Реклама на STARLife</a></li>
+</ul>
+
+<div class="search-area">
+    <form action="" name="searchform" method="post">
+        <input type="hidden" name="do" value="search">
+        <input type="hidden" name="subaction" value="search">
+        <input type="text" name="story" id="story" placeholder="Поиск..." autocomplete="off">
+        <button role="submit"><span>Найти</span></button>
+    </form>
+</div>
+
+</div>
+<!-- closing "#menu" -->
+</nav>
